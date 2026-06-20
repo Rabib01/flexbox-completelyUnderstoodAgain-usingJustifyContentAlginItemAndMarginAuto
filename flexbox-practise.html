@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-box Practise</title>
+    <style>
+        .box-container{
+            border: 2px solid red;
+            height:400px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .box{
+            border: 1px dotted tomato;
+            height: 70px;
+            width: 70px
+        }
+
+        .justify-content-container{
+            border: 2px solid red;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .justify-box{
+            border: 1px dotted tomato;
+            width: 70px;
+            height: 70px;
+            
+        }
+
+        .align-items-container{
+            margin-top: 20px;
+            height:400px;
+            border: 2px solid red;
+            /* display: flex; */
+            align-items: center;
+            gap: 20px;
+            flex-direction: column;
+        }
+        
+        .align-items-box{
+            border: 1px dotted tomato;
+            width: 78px;
+            height: 78px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            margin:auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flexbox practise</h1>
+
+    <div class="box-container">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-5</div>
+    </div>
+    <div class="justify-content-container">
+        <div class="justify-box">box-1</div>
+        <div class="justify-box">box-2</div>
+        <div class="justify-box">box-3</div>
+        <div class="justify-box">box-4</div>
+        <div class="justify-box">box-5</div>
+    </div>
+
+    <div class="align-items-container">
+        <div class="align-items-box">box-1</div>
+        <div class="align-items-box">box-2</div>
+        <div class="align-items-box">box-3</div>
+        <div class="align-items-box">box-4</div>
+        <div class="align-items-box">box-5</div>
+    </div>
+    
+</body>
+</html>
