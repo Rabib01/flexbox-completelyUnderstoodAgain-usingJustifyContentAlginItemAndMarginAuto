@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple login Form with NavBar</title>
+    <style>
+        .navbar{
+            display:flex;
+            /* border: 1px solid black; */
+            gap:30px;
+            justify-content:space-between;
+            padding: 20px;
+        }
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: Black;
+        }
+        .first-4{
+            display: flex;
+            gap:20px;
+        }
+        .last-1{
+            display:flex;
+            justify-content:flex-end;
+        }
+
+        .form-container{
+            display: flex;
+            flex-direction: column;
+            width:90vh;
+            height: 90vh;
+            border:1px solid black;
+            justify-content: center;
+            align-items: center;
+        }
+        .form-info{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            /* margin-bottom: 20px; */
+            
+        }
+        .info{
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="navbar">
+            <div class="first-4">
+            <li><a href="">Home</a></li>
+            <li><a href="">Profile</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">About</a></li>
+            </div>
+            <div class="last-1">
+                <li><a href="">Login</a></li>
+            </div>
+        </ul>
+
+        <form action="" class="form-container">
+            <section class="form-info">
+                <h3 class="info">Submit credentials</h3>
+                <input class="info" type="email" name="" id="" placeholder="Email Please">
+                <input class="info" type="password" name="" id="" placeholder="Password Please">
+                <button class="info">Submit</button>
+            </section>
+            
+        </form>
+    </nav>
+</body>
+</html>
